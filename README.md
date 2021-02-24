@@ -1,6 +1,6 @@
 # springboot-kafka-mongo
 
-Use Mongo as Kafka data source for setup event pipeline that can be read and update from spring boot application .
+Use Mongo as Kafka data source for setup event pipeline that can be read and updated from spring boot application .
 
 Install Mongo in Master -slave mode ( Replica set )
 
