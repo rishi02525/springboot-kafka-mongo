@@ -1,0 +1,18 @@
+2021-02-17 15:14:10.615  INFO 72774 --- [main] c.example.producer.ProducerApplication   : Starting ProducerApplication using Java 1.8.0_275 on Rishis-MacBook-Pro.local with PID 72774 (/Users/rishikumar/Documents/kristal/POC/producer/build/classes/java/main started by rishikumar in /Users/rishikumar/Documents/kristal/POC/producer)
+2021-02-17 15:14:10.617  INFO 72774 --- [main] c.example.producer.ProducerApplication   : No active profile set, falling back to default profiles: default
+2021-02-17 15:14:11.011  INFO 72774 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-02-17 15:14:11.018  INFO 72774 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 MongoDB repository interfaces.
+2021-02-17 15:14:11.343  INFO 72774 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2021-02-17 15:14:11.352  INFO 72774 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-17 15:14:11.352  INFO 72774 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-17 15:14:11.400  INFO 72774 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-17 15:14:11.400  INFO 72774 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 740 ms
+2021-02-17 15:14:11.559  INFO 72774 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-17 15:14:11.706  INFO 72774 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-17 15:14:11.776  INFO 72774 --- [cluster-ClusterId{value='602ce56b0b2651303a4fecdf', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:34}] to localhost:27017
+2021-02-17 15:14:11.776  INFO 72774 --- [cluster-rtt-ClusterId{value='602ce56b0b2651303a4fecdf', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:33}] to localhost:27017
+2021-02-17 15:14:11.776  INFO 72774 --- [cluster-ClusterId{value='602ce56b0b2651303a4fecdf', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=15894971}
+2021-02-17 15:14:11.941  INFO 72774 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2021-02-17 15:14:11.946  INFO 72774 --- [main] c.example.producer.ProducerApplication   : Started ProducerApplication in 1.662 seconds (JVM running for 1.864)
+2021-02-17 15:14:11.948  INFO 72774 --- [main] c.example.producer.ProducerApplication   : this is a info message
+2021-02-17 15:14:59.163  INFO 72774 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
